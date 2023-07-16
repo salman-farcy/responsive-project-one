@@ -1,0 +1,56 @@
+
+
+/*00 Reusable CSS -----------------00*/
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html{
+     font-size: 62.5%;
+}
+a{
+     text-decoration: none;
+}
+img{
+     width: 100%;
+}
+li{
+     list-style: none;
+}
+p{
+     color: #727272;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 1.3rem;
+     font-weight: 400;
+     line-height: 2.3rem; 
+}
+.secondary-headache{
+     color: #131313;
+     font-family: Work Sans;
+     font-size: 4rem;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+/* primary-btn */
+.primary-btn{
+     border-radius: 8px;
+     background: #FF900E;
+     color: #FFF;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 1.6rem;
+     font-weight: 600;
+     padding: 1.6rem 2rem;
+     transition: all .3s ease;
+}
+.primary-btn:hover{
+     background: #ce7107;
+}
+/* container sizing */
+.container{
+     width: 80vw;
+     margin: 0 auto;
+}
