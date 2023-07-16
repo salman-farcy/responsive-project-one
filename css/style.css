@@ -30,6 +30,7 @@ nav li a{
      font-family: Work Sans;
      font-size: 6rem;
      font-weight: 700;
+     word-wrap: break-word;
 }
 .header-banner .banner-description{
      width: 70%;
@@ -44,3 +45,31 @@ nav li a{
 }
 /* banner end */
 /* 01 header section end ------------01 */
+
+/* 02 team section start ------------02 */
+.team-section{
+     display:flex;
+     align-items: center;
+     gap: 4rem;
+}
+.team-section .team-imagesh{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 1.5rem;
+     width: 50%;
+}
+.team-section .team-description{
+     width: 50%;
+}
+.team-description .team-para{
+     text-align: left;
+     font-size: 1.3rem;
+     padding: 1.5rem 0;
+}
+.team-description .span-one{
+     color: #727272;
+}
+.team-description .span-two{
+     color: #FF900E;
+}
+/* 02 team section end --------------02 */
