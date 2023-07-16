@@ -1,1 +1,46 @@
+/*01 header section start ------------01*/
+header{
+     background: rgba(255, 144, 14, 0.10);
+     padding-bottom: 4rem;
+}
+/* navbar */
+nav{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 4.5rem 0;
+}
+nav ul{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3rem;
+}
+nav li a{
+     color:  #424242;
+     font-size: 18px;
+     font-weight: 500;
+}
+/* naver */
 
+/* banner start */
+.header-banner .banner-heading{
+     color: #131313;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 6rem;
+     font-weight: 700;
+}
+.header-banner .banner-description{
+     width: 70%;
+     margin: 0 auto;
+     padding-top: 1.5rem;
+}
+.header-exprement .buttons-dive{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0 6rem 0;
+}
+/* banner end */
+/* 01 header section end ------------01 */

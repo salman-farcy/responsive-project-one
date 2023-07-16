@@ -1,37 +1,60 @@
-
+/* big tablete max 992px  */
 @media screen and (max-width:992px) {
      html{
-          font-size: 62.5%;
+          font-size: 58%;
      }
      .container{
           width: 85vw;
      }
-
+     .header-banner .banner-description{
+          width: 80%;
+     }
      
 }
 
-
+/* mine tablet max 768px  */
 @media screen and (max-width:768px) {
      html{
-          font-size: 62.5%;
+          font-size: 53%;
      }
      .container{
           width: 90vw;
      }
-
-
+     /* navber */
+     nav{
+          flex-direction: column;
+          gap: 2rem;
+     }
+     nav ul{
+          gap: 8rem;
+     }
+     .header-banner .banner-description{
+          width: 90%;
+          text-align: justify;
+     }
 
 }
 
-
+/* mobile max-576px */
 @media screen and (max-width:576px) {
      html{
-          font-size: 62.5%;
+          font-size: 47%;
      }
      .container{
           width: 90vw;
      }
+     /* navber */
+     nav ul{
+          gap: 2rem;
+     }
+     .header-banner .banner-description{
+          width: 90%;
+     }
 
+}
 
-
+@media screen and (max-width:350px) {
+     html{
+          font-size: 38%;
+     }
 }
