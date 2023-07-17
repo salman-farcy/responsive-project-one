@@ -50,16 +50,17 @@ nav li a{
 .team-section{
      display:flex;
      align-items: center;
-     gap: 4rem;
+     /* gap: 4rem; */
+     justify-content: space-between;
 }
 .team-section .team-imagesh{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
      gap: 1.5rem;
-     width: 50%;
+     width: 45%;
 }
 .team-section .team-description{
-     width: 50%;
+     width: 45%;
 }
 .team-description .team-para{
      text-align: left;
@@ -73,3 +74,56 @@ nav li a{
      color: #FF900E;
 }
 /* 02 team section end --------------02 */
+
+/* 03 Features start */
+.features-section{
+     display:flex;
+     align-items: center;
+     gap: 10rem;
+}
+.features-section .features-description{
+     width: 50%;
+}
+.features-section .features-port-imges{
+     width: 50%;
+}
+/* .features-card-prante{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 2rem;
+     margin: 2rem 0;
+} */
+.features-heading-one{
+     position: relative;
+     padding-left: 2rem;
+}
+.features-titel .features-heading-one::before{
+     content: '';
+     position: absolute;
+     width: 5px;
+     /* height: 106px; */
+     height: 100%;
+     top: 0;
+     left: 0;
+     background: #FF900E;
+}
+.features-card{
+     border-radius: .5rem;
+     background: #FFF;
+     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+     padding: 2rem;
+     margin: 2rem 0;
+}
+.mine-para{
+     color: #727272;
+     font-family: Work Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px; 
+     text-align: left;
+     padding-top: 1.5rem;
+     
+}
+/* 03 Features end */
+

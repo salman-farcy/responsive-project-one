@@ -10,11 +10,14 @@
           width: 80%;
      }
      /* team */
-     .team-section{
+     .team-section, .features-section{
           flex-direction: column;
           gap: 2rem;
      }
-     .team-section .team-imagesh, .team-section .team-description{
+     .team-section .team-imagesh, 
+     .team-section .team-description,
+     .features-section .features-description,
+     .features-section .features-port-imges{
           width: 100%;
      }
      
