@@ -10,7 +10,10 @@
           width: 80%;
      }
      /* team */
-     .team-section, .features-section{
+     .features-section{
+          flex-direction: column-reverse;
+     }
+     .team-section{
           flex-direction: column;
           gap: 2rem;
      }
