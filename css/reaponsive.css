@@ -47,7 +47,10 @@
      .team-section .team-imagesh, .team-section .team-description{
           width: 100%;
      }
-
+     /* facts-section */
+     .facts-section .facts-para{
+          width: 60%;
+     }
 }
 
 /* mobile max-576px */
@@ -70,7 +73,10 @@
           grid-template-columns: 1fr;
           gap: 1rem;
      }
-
+     /* facts-section */
+     .facts-section .facts-para{
+          width: 70%;
+     }
 }
 
 /* mime mobile max-350px */
