@@ -86,13 +86,33 @@ nav li a{
 }
 .features-section .features-port-imges{
      width: 50%;
+     position: relative;
 }
-/* .features-card-prante{
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     gap: 2rem;
-     margin: 2rem 0;
-} */
+
+.features-port-imges .features-extra-dive{
+     position: absolute;
+     left: -5rem;
+     bottom: -5rem;
+     width: max-content;
+     height: max-content;
+     border-radius: 8px;
+     background: #FF900E;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 2.5rem;
+}
+.features-port-imges .features-extra-titel{
+     color: #FFF;
+     text-align: center;
+     font-family: Work Sans;
+     font-size: 3rem;
+     font-style: normal;
+     font-weight: 600;
+
+}
+
 .features-titel .features-heading-one{
      position: relative;
      padding-left: 2rem;

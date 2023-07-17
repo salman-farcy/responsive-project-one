@@ -23,6 +23,10 @@
      .features-section .features-port-imges{
           width: 100%;
      }
+     .features-port-imges .features-extra-dive{
+          left: 35%;
+          transform: translateY(-5%);
+     }
      /* sponspors-section */
      .sponspors-titel .secondary-dis{
           width: 70%;
@@ -107,6 +111,10 @@
      }
      .sponspors-logo img{
           width: 40%;
+     }
+     .features-port-imges .features-extra-dive{
+          left: 30%;
+          transform: translateY(-5%);
      }
 }
 
