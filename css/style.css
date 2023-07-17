@@ -197,3 +197,11 @@ nav li a{
      width: 80%;
 }
 /* 05 Sponspors end */
+
+/* 06 footer start */
+.footer-section{
+     border-radius: 8px;
+     background: #FFF4E7;
+     padding: 2rem 1rem;
+}
+/* 06 footer end */
