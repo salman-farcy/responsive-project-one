@@ -171,3 +171,29 @@ nav li a{
      line-height: normal;
 }
 /* 04 Facts end */
+
+/* 05 Sponspors start */
+.sponspors-titel{
+     text-align: center;
+}
+.sponspors-titel .secondary-dis{
+     width: 50%;
+     margin: 0 auto;
+     padding: 2rem 0 4rem 0;
+}
+.sponspors-logo{
+     /* display:flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 2rem;
+     flex-wrap: wrap; */
+     text-align: center;
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     gap: 2rem;
+     flex-wrap: wrap;
+}
+.sponspors-logo img{
+     width: 80%;
+}
+/* 05 Sponspors end */

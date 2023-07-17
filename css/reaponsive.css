@@ -20,6 +20,10 @@
      .features-section .features-port-imges{
           width: 100%;
      }
+     /* sponspors-section */
+     .sponspors-titel .secondary-dis{
+          width: 70%;
+     }
      
 }
 
@@ -51,6 +55,18 @@
      .facts-section .facts-para{
           width: 60%;
      }
+     /* Sponspors start */
+     .sponspors-titel .secondary-dis{
+          width: 85%;
+     }
+     .sponspors-logo{
+          grid-template-columns: repeat(2, 1fr);
+          justify-content: center;
+     }
+     .sponspors-logo img{
+          width: 50%;
+     }
+
 }
 
 /* mobile max-576px */
@@ -76,6 +92,18 @@
      /* facts-section */
      .facts-section .facts-para{
           width: 70%;
+     }
+     /* Sponspors start */
+     .sponspors-titel .secondary-dis{
+          width: 95%;
+     }
+     .sponspors-logo{
+          grid-template-columns: 1fr;
+          justify-content: center;
+          gap: 3rem;
+     }
+     .sponspors-logo img{
+          width: 40%;
      }
 }
 
